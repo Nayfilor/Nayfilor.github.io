@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUSQ SHOP</title>
+
+    <style type="text/css">
+        .container {
+            max-width: 390px;
+        }
+        .shops_img {
+            width: 150px;
+            border-radius: 25px;
+        }
+        .part_text {
+            margin-left: 20px;
+        }
+        .shop {
+            text-align: center;
+        }
+        .object {
+            text-align: center;
+            margin-top: -10px;
+        }
+        .shops {
+            padding-left: 20px;
+        }
+        .products {
+            padding-left: 20px;
+        }
+        .shops_inner {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 210px 200px;
+        }
+        .products_inner {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 400px 400px;
+        }
+        body {
+            background-color: black;
+            color: #E5F4E3;
+            font-family: "SUSE", sans-serif;
+        }
+        .product_img {
+            transform: rotate(-90deg);
+            width: 200px;
+            margin-top: -40px;
+            margin-bottom: -40px;
+            border-radius: 25px; 
+        }
+        .product_img:hover {
+            box-shadow: 2px 2px 10px #525252;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!--<div class="shops">
+            <h3 class="part_text">Магазины</h3>
+            <div class="shops_inner">      
+                <div class="shop" id="husq">
+                    <img src="hsshop.jpg" class="shops_img">
+                    <p>HUSQ SHOP</p>
+                </div>
+                <div class="shop" id="froy">
+                    <img src="froyshop.jpg" class="shops_img">
+                    <p>FroyCollabe</p>
+                </div>
+                <div class="shop" id="pyff">
+                    <img src="pyffshop.jpg" class="shops_img">
+                    <p>PyffStore</p>
+                </div>
+            </div>
+        </div> 
+
+        <hr> -->
+
+        <div class="products">
+            <h3 class="part_text">Каталог товаров</h3>
+            <div class="products_inner">
+                <div class="object" id="todoo">
+                    <p style="font-size: 20px;">Todoo 1900</p>
+                    <img src="todoo.jpg" class="product_img">
+                    <p class="description">Характеристики: 
+                    Затяжек: 1900 <br>
+                    Крепость: 1.8% (18 mg) <br>
+                    Батарея: 1000 мАч <br>
+                    Объём жидкости: 6.9 мл <br>
+                    Цена: 250₽
+                    </p>
+                </div>
+
+                <div class="object" id="urbn">
+                    <p style="font-size: 20px;">URBN Sok 4500</p>
+                    <img src="urbn.jpg" class="product_img">
+                    <p class="description">Характеристики: 
+                    Затяжек: 4500 <br>
+                    Крепость: 2% (20 mg) <br>
+                    Батарея: 650 мАч <br>
+                    Объём жидкости: 12 мл <br>
+                    Цена: 400₽
+                    </p>
+                </div>
+            </div>        
+        </div>   
+    </div>
+</body>
+</html>
